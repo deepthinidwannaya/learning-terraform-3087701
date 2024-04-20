@@ -34,3 +34,23 @@ Open up local git config using git config --local -e and add:
 [user]
 name = user1
 email = user1@gmail.com
+
+
+### Resource types
+Params list specific to resource
+aws_s3_bucket
+aws_s3_bucket_website_configuration
+aws_vpc /*  */
+aws_security_group
+egress
+aws_security_group_rule
+aws_instance
+aws_eip -> elastic ip
+
+### Style
+- Indent two spaces
+- meta arguments  (parameters - can be single or block)
+- Use blank lines
+- Line up equal signs
+
+### Security group
