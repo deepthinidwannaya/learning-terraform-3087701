@@ -54,3 +54,15 @@ aws_eip -> elastic ip
 - Line up equal signs
 
 ### Security group
+for the web server
+
+### Modules
+source to indicate where module file is
+web_ami
+server_name
+can have vars and output values
+outputs to be defined inorder to be reusable
+
+Has main.tf, variables.tf, output.tf
+
+
