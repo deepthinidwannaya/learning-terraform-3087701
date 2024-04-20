@@ -29,7 +29,7 @@ resource "aws_instance" "blog" {
   }
 }
 
-resource "aws_vpc" "blog" {
+data "aws_vpc" "blog" {
   default = true
 }
 
