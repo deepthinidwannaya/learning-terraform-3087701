@@ -26,3 +26,11 @@ Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learn
 
 [lil-course-url]: https://www.linkedin.com/learning/learning-terraform-15575129?dApp=59033956
 [lil-thumbnail-url]: https://cdn.lynda.com/course/3087701/3087701-1666200696363-16x9.jpg
+
+For multiple git
+https://gist.github.com/Jonalogy/54091c98946cfe4f8cdab2bea79430f9 
+
+Open up local git config using git config --local -e and add:
+[user]
+name = user1
+email = user1@gmail.com
