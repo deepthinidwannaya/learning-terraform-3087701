@@ -14,6 +14,7 @@ data "aws_ami" "app_ami" {
   owners = ["979382823631"] # Bitnami
 }
 
+
 data "aws_vpc" "default" {
   default = true
 }
@@ -73,7 +74,6 @@ module "blog_alb" {
       protocol         = "HTTP"
       port             = 80
       target_type      = "instance"
-#      target_id = aws_instance.blog.id
     }
   }
 
